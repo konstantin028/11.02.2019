@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border-radius: 0;
+    background-color: #fce7f2;
+    border: none;
+    color: #860da6;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    color: #860da6;
+    background-color: rgba(228, 67, 152, 0.05);
+}
+
+.ui-widget-content {
+    background-color: #fce5fa;
+    border: none;
+    color: #252525;
+    font-size: 21px;
+    background-color: rgba(228, 67, 152, 0.05);
+
+}
+
+.ui-accordion .ui-accordion-content p {
+    font-size: 25px;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("../images/arow.png");
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    width: 18px;
+    height: 32px;
+}
+
+
+.ui-icon-triangle-1-e{
+    background-position: 0;
+}
+.ui-accordion .ui-accordion-header:before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #860da6;
+    border-radius: 3px;
+    margin-right: 7px;
+    position: relative;
+    top: -8px;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    background-image: url("../images/arow.png");
+    transform: rotate(0deg);
+}
+
+.ui-state-active .ui-icon, .ui-button .ui-icon{
+    background-image: url("../images/arow.png");
+    transform: rotate(90deg);
+}.ui-icon-triangle-1-s{
+    background-position: 0;
+}
+
+
+
+.ui-state-hover .ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("../images/arow.png");
+}
